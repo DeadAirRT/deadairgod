@@ -1817,20 +1817,29 @@
 <!-- BEGIN SCA ECONOMY -->
 	<product id="sca_majadust" ware="majadust" owner="scaleplate" type="factory">
       <quotas>
-        <quota galaxy="20" />
+        <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge"  matchextension="false"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge" solitary="true"  matchextension="false"/>
       <module>
         <select ware="majadust" race="paranid"/>
       </module>
     </product>
 	<product id="pir_spaceweed" ware="spaceweed" owner="scaleplate" type="factory">
       <quotas>
-        <quota galaxy="8" />
+        <quota galaxy="12" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge" solitary="true"  matchextension="false"/>
       <module>
         <select ware="spaceweed" race="teladi"/>
+      </module>
+    </product>
+	<product id="sca_majasnails" ware="majasnails" owner="scaleplate" type="factory">
+      <quotas>
+        <quota galaxy="12" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge" solitary="true"  matchextension="false"/>
+      <module>
+        <select ware="majasnails" race="teladi"/>
       </module>
     </product>
 <!-- END SCA ECONOMY -->
