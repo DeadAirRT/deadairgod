@@ -7,8 +7,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="advancedcomposites" race="argon"/>
@@ -19,8 +19,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="advancedelectronics" race="argon"/>
@@ -31,8 +31,9 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <region ware="hydrogen" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimattercells" race="argon"/>
@@ -43,8 +44,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimatterconverters" race="argon"/>
@@ -55,8 +56,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="claytronics" race="argon" />
@@ -67,8 +68,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="dronecomponents" race="argon"/>
@@ -79,8 +80,8 @@
       <quotas>
         <quota galaxy="12" sector="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
         <sunlight min="1" max="3" />
       </location>
       <module>
@@ -92,8 +93,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="engineparts" race="argon"/>
@@ -104,8 +105,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="fieldcoils" race="argon"/>
@@ -116,8 +117,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="foodrations" race="argon"/>
@@ -128,8 +129,9 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <region ware="methane" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="graphene" race="argon"/>
@@ -140,8 +142,8 @@
       <quotas>
         <quota galaxy="20" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="hullparts" race="argon"/>
@@ -152,8 +154,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="meat" race="argon"/>
@@ -164,8 +166,8 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="medicalsupplies" race="argon"/>
@@ -176,8 +178,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="microchips" race="argon"/>
@@ -188,8 +190,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.4" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="missilecomponents" race="argon"/>
@@ -200,8 +202,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="plasmaconductors" race="argon"/>
@@ -212,8 +214,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="quantumtubes" race="argon"/>
@@ -224,9 +226,9 @@
       <quotas>
         <quota galaxy="8" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <region ware="ore" max="80000" />
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="refinedmetals" race="argon"/>
@@ -237,8 +239,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="scanningarrays" race="argon"/>
@@ -249,8 +251,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="shieldcomponents" race="argon"/>
@@ -261,9 +263,9 @@
       <quotas>
         <quota galaxy="8" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <region ware="silicon" max="80000"/>
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="siliconwafers" race="argon"/>
@@ -274,8 +276,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="smartchips" race="argon"/>
@@ -286,8 +288,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="hatikvah" relation="self" comparison="ge" solitary="true" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact"  matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="spacefuel" race="argon"/>
@@ -298,8 +300,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="spices" race="argon"/>
@@ -310,8 +312,9 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <region ware="helium" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="superfluidcoolant" race="argon"/>
@@ -322,8 +325,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="turretcomponents" race="argon"/>
@@ -334,8 +337,9 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <region ware="ice" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="water" race="argon"/>
@@ -346,8 +350,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="weaponcomponents" race="argon"/>
@@ -358,8 +362,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="wheat" race="argon"/>
@@ -372,8 +376,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="advancedcomposites" race="argon"/>
@@ -384,8 +388,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="advancedelectronics" race="argon"/>
@@ -396,8 +400,9 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <region ware="hydrogen" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimattercells" race="argon"/>
@@ -408,8 +413,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimatterconverters" race="argon"/>
@@ -420,8 +425,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="claytronics" race="argon" />
@@ -432,8 +437,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="dronecomponents" race="argon"/>
@@ -444,8 +449,8 @@
       <quotas>
         <quota galaxy="6" sector="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy max="0.8" maxbound="true" />
         <sunlight min="1" max="3" />
       </location>
       <module>
@@ -457,8 +462,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="engineparts" race="argon"/>
@@ -469,8 +474,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="fieldcoils" race="argon"/>
@@ -481,8 +486,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="foodrations" race="argon"/>
@@ -493,8 +498,9 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <region ware="methane" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="graphene" race="argon"/>
@@ -505,8 +511,8 @@
       <quotas>
         <quota galaxy="10" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="hullparts" race="argon"/>
@@ -517,8 +523,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="meat" race="argon"/>
@@ -529,8 +535,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="medicalsupplies" race="argon"/>
@@ -541,8 +547,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="microchips" race="argon"/>
@@ -553,8 +559,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.4" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="missilecomponents" race="argon"/>
@@ -565,8 +571,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="plasmaconductors" race="argon"/>
@@ -577,8 +583,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="quantumtubes" race="argon"/>
@@ -589,9 +595,9 @@
       <quotas>
         <quota galaxy="4" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <region ware="ore" max="80000" />
-        <economy min="0.1" max="1.0" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="refinedmetals" race="argon"/>
@@ -602,8 +608,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="scanningarrays" race="argon"/>
@@ -614,8 +620,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="shieldcomponents" race="argon"/>
@@ -626,9 +632,9 @@
       <quotas>
         <quota galaxy="4" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <region ware="silicon" max="80000"/>
-        <economy min="0.1" max="1.0" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="siliconwafers" race="argon"/>
@@ -639,8 +645,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="smartchips" race="argon"/>
@@ -651,8 +657,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="hatikvah" relation="self" comparison="ge" solitary="true" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact"  matchextension="false">
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="spacefuel" race="argon"/>
@@ -663,8 +669,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="spices" race="argon"/>
@@ -675,8 +681,9 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <region ware="helium" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="superfluidcoolant" race="argon"/>
@@ -687,8 +694,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="turretcomponents" race="argon"/>
@@ -699,8 +706,9 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <region ware="ice" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="water" race="argon"/>
@@ -711,8 +719,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="weaponcomponents" race="argon"/>
@@ -723,8 +731,8 @@
       <quotas>
         <quota galaxy="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="wheat" race="argon"/>
@@ -737,8 +745,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="advancedcomposites" race="paranid"/>
@@ -749,8 +757,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="advancedelectronics" race="paranid"/>
@@ -761,8 +769,9 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <region ware="hydrogen" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimattercells" race="paranid"/>
@@ -773,8 +782,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimatterconverters" race="paranid"/>
@@ -785,8 +794,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="claytronics" race="paranid" />
@@ -797,8 +806,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="dronecomponents" race="paranid"/>
@@ -809,8 +818,8 @@
       <quotas>
         <quota galaxy="18" sector="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
         <sunlight min="1" max="3" />
       </location>
       <module>
@@ -822,8 +831,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="engineparts" race="paranid"/>
@@ -834,8 +843,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="fieldcoils" race="paranid"/>
@@ -846,8 +855,9 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <region ware="methane" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="graphene" race="paranid"/>
@@ -858,8 +868,8 @@
       <quotas>
         <quota galaxy="24" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="hullparts" race="paranid"/>
@@ -870,8 +880,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="majasnails" race="paranid"/>
@@ -882,8 +892,8 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="medicalsupplies" race="paranid"/>
@@ -894,8 +904,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="microchips" race="paranid"/>
@@ -906,8 +916,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.4" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="missilecomponents" race="paranid"/>
@@ -918,8 +928,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="plasmaconductors" race="paranid"/>
@@ -930,8 +940,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="quantumtubes" race="paranid"/>
@@ -942,9 +952,9 @@
       <quotas>
         <quota galaxy="12" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <region ware="ore" max="80000" />
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="refinedmetals" race="paranid"/>
@@ -955,8 +965,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="scanningarrays" race="paranid"/>
@@ -967,8 +977,8 @@
       <quotas>
         <quota galaxy="9" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="shieldcomponents" race="paranid"/>
@@ -979,9 +989,9 @@
       <quotas>
         <quota galaxy="12" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <region ware="silicon" max="80000"/>
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="siliconwafers" race="paranid"/>
@@ -992,8 +1002,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="smartchips" race="paranid"/>
@@ -1004,8 +1014,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="sojabeans" race="paranid"/>
@@ -1016,8 +1026,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="sojahusk" race="paranid"/>
@@ -1028,8 +1038,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="spices" race="paranid"/>
@@ -1040,8 +1050,9 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <region ware="helium" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="superfluidcoolant" race="paranid"/>
@@ -1052,8 +1063,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="turretcomponents" race="paranid"/>
@@ -1064,8 +1075,9 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <region ware="ice" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="water" race="paranid"/>
@@ -1076,8 +1088,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="weaponcomponents" race="paranid"/>
@@ -1090,8 +1102,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="advancedcomposites" race="paranid"/>
@@ -1102,8 +1114,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="advancedelectronics" race="paranid"/>
@@ -1114,8 +1126,9 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <region ware="hydrogen" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimattercells" race="paranid"/>
@@ -1126,8 +1139,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimatterconverters" race="paranid"/>
@@ -1138,8 +1151,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="claytronics" race="paranid" />
@@ -1150,8 +1163,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="dronecomponents" race="paranid"/>
@@ -1162,8 +1175,8 @@
       <quotas>
         <quota galaxy="18" sector="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
         <sunlight min="1" max="3" />
       </location>
       <module>
@@ -1175,8 +1188,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="engineparts" race="paranid"/>
@@ -1187,8 +1200,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="fieldcoils" race="paranid"/>
@@ -1199,8 +1212,9 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <region ware="methane" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="graphene" race="paranid"/>
@@ -1211,8 +1225,8 @@
       <quotas>
         <quota galaxy="24" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="hullparts" race="paranid"/>
@@ -1223,8 +1237,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="majasnails" race="paranid"/>
@@ -1235,8 +1249,8 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="medicalsupplies" race="paranid"/>
@@ -1247,8 +1261,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="microchips" race="paranid"/>
@@ -1259,8 +1273,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.4" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="missilecomponents" race="paranid"/>
@@ -1271,8 +1285,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="plasmaconductors" race="paranid"/>
@@ -1283,8 +1297,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="quantumtubes" race="paranid"/>
@@ -1295,9 +1309,9 @@
       <quotas>
         <quota galaxy="12" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <region ware="ore" max="80000" />
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="refinedmetals" race="paranid"/>
@@ -1308,8 +1322,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="scanningarrays" race="paranid"/>
@@ -1320,8 +1334,8 @@
       <quotas>
         <quota galaxy="9" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="shieldcomponents" race="paranid"/>
@@ -1332,9 +1346,9 @@
       <quotas>
         <quota galaxy="12" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <region ware="silicon" max="80000"/>
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="siliconwafers" race="paranid"/>
@@ -1345,8 +1359,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="smartchips" race="paranid"/>
@@ -1357,8 +1371,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="sojabeans" race="paranid"/>
@@ -1369,8 +1383,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="sojahusk" race="paranid"/>
@@ -1381,8 +1395,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="spices" race="paranid"/>
@@ -1393,8 +1407,9 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <region ware="helium" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="superfluidcoolant" race="paranid"/>
@@ -1405,8 +1420,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="turretcomponents" race="paranid"/>
@@ -1417,8 +1432,9 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <region ware="ice" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="water" race="paranid"/>
@@ -1429,8 +1445,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="weaponcomponents" race="paranid"/>
@@ -1443,8 +1459,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="advancedcomposites" race="teladi"/>
@@ -1455,8 +1471,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="advancedelectronics" race="teladi"/>
@@ -1467,8 +1483,9 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <region ware="hydrogen" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimattercells" race="teladi"/>
@@ -1479,8 +1496,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="antimatterconverters" race="teladi"/>
@@ -1491,8 +1508,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="claytronics" race="teladi" />
@@ -1503,8 +1520,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="dronecomponents" race="teladi"/>
@@ -1515,8 +1532,8 @@
       <quotas>
         <quota galaxy="18" sector="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
         <sunlight min="1" max="3" />
       </location>
       <module>
@@ -1528,8 +1545,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="engineparts" race="teladi"/>
@@ -1540,8 +1557,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="fieldcoils" race="teladi"/>
@@ -1552,8 +1569,9 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <region ware="methane" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="graphene" race="teladi"/>
@@ -1564,8 +1582,8 @@
       <quotas>
         <quota galaxy="24" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="hullparts" race="teladi"/>
@@ -1576,8 +1594,8 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="medicalsupplies" race="teladi"/>
@@ -1588,8 +1606,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="microchips" race="teladi"/>
@@ -1600,8 +1618,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.4" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="missilecomponents" race="teladi"/>
@@ -1612,8 +1630,8 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="nostropoil" race="teladi"/>
@@ -1624,8 +1642,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="plasmaconductors" race="teladi"/>
@@ -1636,8 +1654,8 @@
       <quotas>
         <quota galaxy="6" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.2" max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="quantumtubes" race="teladi"/>
@@ -1648,8 +1666,8 @@
       <quotas>
         <quota galaxy="3" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="scanningarrays" race="teladi"/>
@@ -1660,8 +1678,8 @@
       <quotas>
         <quota galaxy="9" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="shieldcomponents" race="teladi"/>
@@ -1672,9 +1690,9 @@
       <quotas>
         <quota galaxy="12" sector="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <region ware="silicon" max="80000"/>
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="siliconwafers" race="teladi"/>
@@ -1685,8 +1703,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.4" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="smartchips" race="teladi"/>
@@ -1697,8 +1715,8 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" solitary="true" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact"  matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="spaceweed" race="teladi"/>
@@ -1709,8 +1727,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="spices" race="teladi"/>
@@ -1721,8 +1739,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="sunriseflowers" race="teladi"/>
@@ -1733,8 +1751,9 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <region ware="helium" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="superfluidcoolant" race="teladi"/>
@@ -1745,8 +1764,8 @@
       <quotas>
         <quota galaxy="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.1" max="0.5" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.1" max="0.6" maxbound="true" />
       </location>
       <module>
         <select ware="swampplant" race="teladi"/>
@@ -1757,9 +1776,9 @@
       <quotas>
         <quota galaxy="12" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <region ware="ore" max="80000" />
-        <economy min="0.1" max="0.5" maxbound="false" />
+        <economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="teladianium" race="teladi"/>
@@ -1770,8 +1789,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="turretcomponents" race="teladi"/>
@@ -1782,8 +1801,9 @@
       <quotas>
         <quota galaxy="8" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <region ware="ice" max="80000" />
+		<economy max="0.8" maxbound="true" />
       </location>
       <module>
         <select ware="water" race="teladi"/>
@@ -1794,8 +1814,8 @@
       <quotas>
         <quota galaxy="5" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="ge" matchextension="false">
-        <economy min="0.6" max="1.0" maxbound="false" />
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
+        <economy min="0.7" max="1.0" maxbound="false" />
       </location>
       <module>
         <select ware="weaponcomponents" race="teladi"/>
@@ -1806,9 +1826,11 @@
 <!-- BEGIN HAT ECONOMY -->
 	<product id="pir_spacefuel" ware="spacefuel" owner="hatikvah" type="factory">
       <quotas>
-        <quota galaxy="12" />
+        <quota galaxy="12" cluster="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge" solitary="true"  matchextension="false"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="exact" matchextension="false">
+		<economy min="0.4" />
+	  </location>
       <module>
         <select ware="spacefuel" race="argon"/>
       </module>
@@ -1817,27 +1839,33 @@
 <!-- BEGIN SCA ECONOMY -->
 	<product id="sca_majadust" ware="majadust" owner="scaleplate" type="factory">
       <quotas>
-        <quota galaxy="12" />
+        <quota galaxy="12" cluster="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge" solitary="true"  matchextension="false"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="exact" matchextension="false">
+		<economy min="0.4" />
+	  </location>
       <module>
         <select ware="majadust" race="paranid"/>
       </module>
     </product>
 	<product id="pir_spaceweed" ware="spaceweed" owner="scaleplate" type="factory">
       <quotas>
-        <quota galaxy="12" />
+        <quota galaxy="12" cluster="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge" solitary="true"  matchextension="false"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="exact" matchextension="false">
+		<economy min="0.4" />
+	  </location>
       <module>
         <select ware="spaceweed" race="teladi"/>
       </module>
     </product>
 	<product id="sca_majasnails" ware="majasnails" owner="scaleplate" type="factory">
       <quotas>
-        <quota galaxy="12" />
+        <quota galaxy="12" cluster="2" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="ge" solitary="true"  matchextension="false"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" relation="self" comparison="exact" matchextension="false">
+		<economy min="0.4" />
+	  </location>
       <module>
         <select ware="majasnails" race="teladi"/>
       </module>
@@ -1846,9 +1874,9 @@
 <!-- BEGIN XENON ECONOMY -->
 	<product id="xen_energycells" ware="energycells" owner="xenon" type="factory">
       <quotas>
-        <quota galaxy="32" sector="4" />
+        <quota galaxy="48" cluster="4" />
       </quotas>
-      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="ge"  matchextension="false"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="exact"  matchextension="false"/>
       <module>
         <select ware="energycells" race="xenon"/>
       </module>
@@ -1856,5 +1884,6 @@
 <!-- END XENON ECONOMY -->
 </products>
 </replace>
+<replace sel="//god/stations/defaults/quota/@zone">4</replace>
 </diff>
 
