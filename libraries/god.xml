@@ -5,7 +5,7 @@
 <!-- BEGIN ARG ECONOMY -->
 	<product id="arg_advancedcomposites" ware="advancedcomposites" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="4" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -17,7 +17,7 @@
 
     <product id="arg_advancedelectronics" ware="advancedelectronics" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -42,7 +42,7 @@
 
     <product id="arg_antimatterconverters" ware="antimatterconverters" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="5" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -54,7 +54,7 @@
 
     <product id="arg_claytronics" ware="claytronics" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="6" />
+        <quota galaxy="8" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -103,7 +103,7 @@
 
     <product id="arg_fieldcoils" ware="fieldcoils" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -140,7 +140,7 @@
 
     <product id="arg_hullparts" ware="hullparts" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="20" />
+        <quota galaxy="24" cluster="4"/>
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -237,7 +237,7 @@
 
     <product id="arg_scanningarrays" ware="scanningarrays" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -323,7 +323,7 @@
 
     <product id="arg_turretcomponents" ware="turretcomponents" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -348,7 +348,7 @@
 
     <product id="arg_weaponcomponents" ware="weaponcomponents" owner="argon" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -374,7 +374,7 @@
 <!-- BEGIN ANT ECONOMY -->
 	<product id="ant_advancedcomposites" ware="advancedcomposites" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="2" />
+        <quota galaxy="2" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -386,7 +386,7 @@
 
     <product id="ant_advancedelectronics" ware="advancedelectronics" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="2" />
+        <quota galaxy="3" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -411,7 +411,7 @@
 
     <product id="ant_antimatterconverters" ware="antimatterconverters" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="2" />
+        <quota galaxy="3" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -423,7 +423,7 @@
 
     <product id="ant_claytronics" ware="claytronics" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="4" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -472,7 +472,7 @@
 
     <product id="ant_fieldcoils" ware="fieldcoils" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="2" />
+        <quota galaxy="3" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -509,7 +509,7 @@
 
     <product id="ant_hullparts" ware="hullparts" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="10" />
+        <quota galaxy="12" cluster="4"/>
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -606,7 +606,7 @@
 
     <product id="ant_scanningarrays" ware="scanningarrays" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="2" />
+        <quota galaxy="3" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -692,7 +692,7 @@
 
     <product id="ant_turretcomponents" ware="turretcomponents" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="3" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -717,7 +717,7 @@
 
     <product id="ant_weaponcomponents" ware="weaponcomponents" owner="antigone" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="3" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -743,7 +743,7 @@
 <!-- BEGIN PAR ECONOMY -->
 	<product id="par_advancedcomposites" ware="advancedcomposites" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="4" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -755,7 +755,7 @@
 
     <product id="par_advancedelectronics" ware="advancedelectronics" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -780,7 +780,7 @@
 
     <product id="par_antimatterconverters" ware="antimatterconverters" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="5" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -792,7 +792,7 @@
 
     <product id="par_claytronics" ware="claytronics" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="6" />
+        <quota galaxy="8" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -841,7 +841,7 @@
 
     <product id="par_fieldcoils" ware="fieldcoils" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -866,7 +866,7 @@
 
     <product id="par_hullparts" ware="hullparts" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="24" />
+        <quota galaxy="24" cluster="4"/>
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -963,7 +963,7 @@
 
     <product id="par_scanningarrays" ware="scanningarrays" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1061,7 +1061,7 @@
 
     <product id="par_turretcomponents" ware="turretcomponents" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1086,7 +1086,7 @@
 
     <product id="par_weaponcomponents" ware="weaponcomponents" owner="paranid" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1100,7 +1100,7 @@
 <!-- BEGIN HOL ECONOMY -->
 	<product id="hol_advancedcomposites" ware="advancedcomposites" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="4" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -1112,7 +1112,7 @@
 
     <product id="hol_advancedelectronics" ware="advancedelectronics" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1137,7 +1137,7 @@
 
     <product id="hol_antimatterconverters" ware="antimatterconverters" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="5" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -1149,7 +1149,7 @@
 
     <product id="hol_claytronics" ware="claytronics" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="6" />
+        <quota galaxy="8" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1198,7 +1198,7 @@
 
     <product id="hol_fieldcoils" ware="fieldcoils" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1223,7 +1223,7 @@
 
     <product id="hol_hullparts" ware="hullparts" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="24" />
+        <quota galaxy="24" cluster="4"/>
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1320,7 +1320,7 @@
 
     <product id="hol_scanningarrays" ware="scanningarrays" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1418,7 +1418,7 @@
 
     <product id="hol_turretcomponents" ware="turretcomponents" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1443,7 +1443,7 @@
 
     <product id="hol_weaponcomponents" ware="weaponcomponents" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1457,7 +1457,7 @@
 <!-- BEGIN TEL ECONOMY -->
 	<product id="tel_advancedcomposites" ware="advancedcomposites" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="4" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -1469,7 +1469,7 @@
 
     <product id="tel_advancedelectronics" ware="advancedelectronics" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1494,7 +1494,7 @@
 
     <product id="tel_antimatterconverters" ware="antimatterconverters" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="5" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.2" max="0.8" maxbound="true" />
@@ -1506,7 +1506,7 @@
 
     <product id="tel_claytronics" ware="claytronics" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="6" />
+        <quota galaxy="8" cluster="2" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1555,7 +1555,7 @@
 
     <product id="tel_fieldcoils" ware="fieldcoils" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1580,7 +1580,7 @@
 
     <product id="tel_hullparts" ware="hullparts" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="24" />
+        <quota galaxy="24" cluster="4"/>
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1664,7 +1664,7 @@
 
     <product id="tel_scanningarrays" ware="scanningarrays" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="3" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1787,7 +1787,7 @@
 
     <product id="tel_turretcomponents" ware="turretcomponents" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
@@ -1812,7 +1812,7 @@
 
     <product id="tel_weaponcomponents" ware="weaponcomponents" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="5" />
+        <quota galaxy="6" cluster="1" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false">
         <economy min="0.7" max="1.0" maxbound="false" />
