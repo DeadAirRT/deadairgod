@@ -2,9 +2,10 @@
 
 ## Improves universe spawning for a war heavy gamestart
 - Adjusts amount of stations
-- Adjusts critical stations to spawn in faction's core systems
 
-##### Requires mod: DeadAirGate Overhaul
+##### Requires mod: None
+
+##### Requires DLC
 
 ##### Requires new game to take effect.
 
