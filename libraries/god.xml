@@ -835,7 +835,8 @@
   <replace sel="/god/products/product[@id='tel_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[teladi, scaleplate]']/@faction">[teladi]</replace>
   <replace sel="/god/products/product[@id='tel_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[teladi]']/@comparison">exact</replace>
   <remove sel="/god/products/product[@id='tel_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[teladi]']/economy"/>
-  <replace sel="/god/products/product[@id='xen_energycells'][@type='factory']/quotas/quota/@galaxy">16</replace>
+  <replace sel="/god/products/product[@id='xen_energycells'][@type='factory']/quotas/quota/@galaxy">21</replace>
+  <remove sel="/god/products/product[@id='xen_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/security"/>
   <replace sel="/god/products/product[@id='spl_advancedcomposites'][@type='factory']/quotas/quota/@galaxy">4</replace>
   <replace sel="/god/products/product[@id='spl_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='split']/@faction">[split]</replace>
   <replace sel="/god/products/product[@id='spl_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[split]']/@comparison">exact</replace>
@@ -1111,7 +1112,9 @@
   <remove sel="/god/products/product[@id='par_dlc_split_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='paranid']/economy"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_advancedelectronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='teladi']/economy"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='teladi']/economy"/>
-  <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@galaxy">14</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@galaxy">12</replace>
+  <remove sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@sector"/>
+  <add sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota" type="@cluster">3</add>
   <replace sel="/god/products/product[@id='ter_metallicmicrolattice'][@type='factory']/quotas/quota/@galaxy">10</replace>
   <replace sel="/god/products/product[@id='ter_metallicmicrolattice'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='terran']/@faction">[terran]</replace>
   <replace sel="/god/products/product[@id='ter_metallicmicrolattice'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[terran]']/@comparison">exact</replace>
@@ -1174,4 +1177,10 @@
   <replace sel="/god/products/product[@id='pio_computronicsubstrate_oortcloud'][@type='factory']/quotas/quota/@galaxy">3</replace>
   <replace sel="/god/products/product[@id='pio_metallicmicrolattice_oortcloud'][@type='factory']/quotas/quota/@galaxy">2</replace>
   <replace sel="/god/products/product[@id='pio_siliconcarbide_oortcloud'][@type='factory']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/quotas/quota/@sector">2</replace>
+  <remove sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/location[@macro='cluster_112_sector001_macro'][@faction='xenon']/security"/>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/quotas/quota/@sector">2</replace>
+  <remove sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/location[@macro='cluster_112_sector002_macro'][@faction='xenon']/security"/>
 </diff>

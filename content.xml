@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirGod" name="DeadAir God" description="Stronger economy on game start for a war heavy universe" author="DeadAir" version="002" date="2022-01-07" save="0" enabled="1">
+<content id="DeadAirGod" name="DeadAir God" description="Stronger economy on game start for a war heavy universe" author="DeadAir" version="005" date="2022-01-07" save="0" enabled="1">
 	<dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
 	<dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity" />
 	<text language="7" 	name="DeadAir God" description="Stronger economy on game start for a war heavy universe" author="DeadAir" />
