@@ -206,12 +206,15 @@
       <level exact="1.0"/>
     </loadout>
   </add>
-  <add sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/station">
+  <replace sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/station/loadout/level/@exact">1.0</replace>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_401_sector001'][@type='factory']/station/select[@faction='split']/loadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_401_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
   </add>
-  <add sel="/god/stations/station[@id='spl_defence_cluster_401_sector001'][@type='factory']/station">
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_401_sector001_2'][@type='factory']/station/select[@faction='split']/loadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_401_sector001_2'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
@@ -226,6 +229,8 @@
       <level exact="1.0"/>
     </loadout>
   </add>
+  <replace sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/quotas/quota/@zone">2</replace>
   <add sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
