@@ -1604,7 +1604,9 @@
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='tel_weaponcomponents'][@type='factory']/module/select" type="@faction">teladi</add>
-  <replace sel="/god/products/product[@id='xen_energycells'][@type='factory']/quotas/quota/@galaxy">21</replace>
+  <replace sel="/god/products/product[@id='xen_energycells'][@type='factory']/quotas/quota/@galaxy">33</replace>
+  <remove sel="/god/products/product[@id='xen_energycells'][@type='factory']/quotas/quota/@cluster"/>
+  <add sel="/god/products/product[@id='xen_energycells'][@type='factory']/quotas/quota" type="@sector">3</add>
   <replace sel="/god/products/product[@id='xen_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/@comparison">exact</replace>
   <remove sel="/god/products/product[@id='xen_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/security"/>
   <replace sel="/god/products/product[@id='spl_advancedcomposites'][@type='factory']/quotas/quota/@galaxy">4</replace>
@@ -2114,9 +2116,8 @@
   <remove sel="/god/products/product[@id='par_dlc_split_weaponcomponents'][@type='factory']"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_advancedelectronics'][@type='factory']"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_weaponcomponents'][@type='factory']"/>
-  <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@galaxy">12</replace>
-  <remove sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@sector"/>
-  <add sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota" type="@cluster">3</add>
+  <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@galaxy">15</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@sector">3</replace>
   <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/@comparison">exact</replace>
   <replace sel="/god/products/product[@id='ter_metallicmicrolattice'][@type='factory']/quotas/quota/@galaxy">14</replace>
   <replace sel="/god/products/product[@id='ter_metallicmicrolattice'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='terran']/@faction">[terran]</replace>
@@ -2266,12 +2267,12 @@
   <remove sel="/god/products/product[@id='pio_siliconcarbide_oortcloud'][@type='factory']/location[@macro='cluster_116_sector001_macro']/@relation"/>
   <remove sel="/god/products/product[@id='pio_siliconcarbide_oortcloud'][@type='factory']/location[@macro='cluster_116_sector001_macro']/@comparison"/>
   <add sel="/god/products/product[@id='pio_siliconcarbide_oortcloud'][@type='factory']/location[@macro='cluster_116_sector001_macro']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/quotas/quota/@galaxy">2</replace>
-  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/quotas/quota/@sector">2</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/quotas/quota/@galaxy">3</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/quotas/quota/@sector">3</replace>
   <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/location[@macro='cluster_112_sector001_macro'][@faction='xenon']/@comparison">exact</replace>
   <remove sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector001'][@type='factory']/location[@macro='cluster_112_sector001_macro'][@faction='xenon']/security"/>
-  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/quotas/quota/@galaxy">2</replace>
-  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/quotas/quota/@sector">2</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/quotas/quota/@galaxy">3</replace>
+  <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/quotas/quota/@sector">3</replace>
   <replace sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/location[@macro='cluster_112_sector002_macro'][@faction='xenon']/@comparison">exact</replace>
   <remove sel="/god/products/product[@id='xen_dlc_terran_energycells_cluster_112_sector002'][@type='factory']/location[@macro='cluster_112_sector002_macro'][@faction='xenon']/security"/>
   <replace sel="/god/products/product[@id='vig_foodrations'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='loanshark']/@comparison">exact</replace>
